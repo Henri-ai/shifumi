@@ -1,0 +1,75 @@
+header{
+    margin-bottom: 5%;
+}
+.imgButton{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(137, 227, 159);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#imgButtonRock ,#imgButtonPaper,#imgButtonScissors{
+    width: 200px;
+    height: auto;
+    transition-duration: 0.4s;
+    transition-property:transform;
+}
+
+#imgButtonRock:hover ,#imgButtonPaper:hover,#imgButtonScissors:hover{
+    transform: rotate(360deg);
+}
+
+button{
+    background: none;
+    border:none;
+    cursor:pointer
+}
+
+#messageResult{
+    margin: 3%;
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+.score{
+    text-align: center; 
+}
+
+.victory{
+    color: green;
+}
+
+.defeat{
+    color:red;
+}
+
+#imgReset{
+    width: 50px;
+    height: auto;
+}
+
+/* responsive */
+
+@media screen and (max-width: 576px)  {
+#imgButtonRock ,#imgButtonPaper,#imgButtonScissors{
+            width: 100%;
+        }
+
+    }
+
+
+
+
+
+
+
+

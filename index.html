@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sofia+Sans+Extra+Condensed:wght@1&display=swap" rel="stylesheet">
+    <title>ShiFuMi - Jeu du pierre feuille ciseaux</title>
+</head>
+<body>
+    <header>
+        <h1>ShiFuMi !?</h1>
+    </header>
+<main>
+    <div class="imgButton">
+        <button id="rock" type="button" value="Pierre"><img src="assets/img/pierre.png" id="imgButtonRock" alt=""></button> 
+        <button id="paper" type="button" value="Feuille"><img src="assets/img/feuille.png" id="imgButtonPaper" alt=""></button>
+        <button id="scissors" type="button" value="Ciseaux"><img src="assets/img/ciseaux.png" id="imgButtonScissors" alt=""></button>
+    </div>
+    <div id="messageResult">Pour jouer cliqué sur la pierre, la feuille ou les ciseaux !</div>
+    <div class="score">
+        <div class="titleScore">
+            <h2>Score :</h2>
+        </div>
+        <div class="victory">
+            <p>Victoire : <span id="countUser">0</span></p>
+        </div>
+        <div class="defeat">
+            <p>Défaite : <span id="countComputeur">0</span></p>
+        </div>
+        <div class="averageVictory">
+            <p>% de victoire : <span id="Average">0</span></p>
+        </div>
+        <button id="buttonReset" type="reset"><img src="assets/img/black-panel-restart-system-icon--6.png" id="imgReset"></button>
+    </div>
+        
+</main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
