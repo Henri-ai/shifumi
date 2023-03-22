@@ -9,7 +9,6 @@ buttonRock=document.getElementById('rock');
 buttonPaper=document.getElementById('paper');
 buttonScissors=document.getElementById('scissors');
 buttonReset=document.getElementById('buttonReset');
-
 soundEquality=document.getElementById('soundEquality');
 soundWin=document.getElementById('soundWin');
 soundLoose=document.getElementById('soundLoose');
@@ -85,9 +84,7 @@ function result (userChoice,computerChoice){
         average=(countUser) / (nbrParts)*100;
         document.getElementById('average').innerHTML=parseInt(average);
     }
-        
-        
-// userChoice==computerChoice ? document.getElementById('average').innerHTML=0 : document.getElementById('average').innerHTML=parseInt(average);
+
 }
 
 
